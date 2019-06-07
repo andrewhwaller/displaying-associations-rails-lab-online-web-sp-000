@@ -4,7 +4,7 @@ class SongsController < ApplicationController
   end
 
   def show
-    
+    @song = Sond.find(params[:id])
   end
 
   def new
